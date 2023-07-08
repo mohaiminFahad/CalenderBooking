@@ -9,13 +9,28 @@
 /* Begin PBXBuildFile section */
 		0AEB16392A59BAD7006E49FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB16382A59BAD7006E49FC /* AppDelegate.swift */; };
 		0AEB163B2A59BAD7006E49FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB163A2A59BAD7006E49FC /* SceneDelegate.swift */; };
-		0AEB163D2A59BAD7006E49FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB163C2A59BAD7006E49FC /* ViewController.swift */; };
-		0AEB16402A59BAD7006E49FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB163E2A59BAD7006E49FC /* Main.storyboard */; };
 		0AEB16422A59BADA006E49FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB16412A59BADA006E49FC /* Assets.xcassets */; };
 		0AEB16452A59BADA006E49FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB16432A59BADA006E49FC /* LaunchScreen.storyboard */; };
 		0AEB16502A59BADA006E49FC /* CalenderBookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB164F2A59BADA006E49FC /* CalenderBookingTests.swift */; };
 		0AEB165A2A59BADA006E49FC /* CalenderBookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB16592A59BADA006E49FC /* CalenderBookingUITests.swift */; };
 		0AEB165C2A59BADA006E49FC /* CalenderBookingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB165B2A59BADA006E49FC /* CalenderBookingUITestsLaunchTests.swift */; };
+		0AEB166B2A59BB54006E49FC /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB166A2A59BB54006E49FC /* Presenter.swift */; };
+		0AEB166E2A59BB94006E49FC /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB166D2A59BB94006E49FC /* BaseNavigationController.swift */; };
+		0AEB16702A59BBEC006E49FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB166F2A59BBEC006E49FC /* Theme.swift */; };
+		0AEB16762A59C19D006E49FC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB16752A59C19D006E49FC /* UIViewController.swift */; };
+		0AEB16782A59C39C006E49FC /* CalenderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB16772A59C39C006E49FC /* CalenderPresenter.swift */; };
+		0AEB167B2A59C3BD006E49FC /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB16792A59C3BD006E49FC /* CalenderViewController.swift */; };
+		0AEB167C2A59C3BD006E49FC /* CalenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB167A2A59C3BD006E49FC /* CalenderViewController.xib */; };
+		0AEB167E2A59C65E006E49FC /* CalenderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB167D2A59C65E006E49FC /* CalenderManager.swift */; };
+		0AEB16802A59C77E006E49FC /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB167F2A59C77E006E49FC /* Colours.xcassets */; };
+		0AEB16822A59D32D006E49FC /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB16812A59D32D006E49FC /* CalenderHelper.swift */; };
+		0AEB16852A59D386006E49FC /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB16832A59D386006E49FC /* CalenderCell.swift */; };
+		0AEB16862A59D386006E49FC /* CalenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB16842A59D386006E49FC /* CalenderCell.xib */; };
+		0AEB16892A59DE8F006E49FC /* TimeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB16872A59DE8F006E49FC /* TimeSelectViewController.swift */; };
+		0AEB168A2A59DE8F006E49FC /* TimeSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB16882A59DE8F006E49FC /* TimeSelectViewController.xib */; };
+		0AEB168C2A59E74A006E49FC /* TimeSelectPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB168B2A59E74A006E49FC /* TimeSelectPresenter.swift */; };
+		0AEB168E2A59EBB2006E49FC /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB168D2A59EBB2006E49FC /* UIButton.swift */; };
+		0AEB16902A59EC91006E49FC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB168F2A59EC91006E49FC /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +54,6 @@
 		0AEB16352A59BAD7006E49FC /* CalenderBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalenderBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEB16382A59BAD7006E49FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AEB163A2A59BAD7006E49FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0AEB163C2A59BAD7006E49FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0AEB163F2A59BAD7006E49FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AEB16412A59BADA006E49FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AEB16442A59BADA006E49FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AEB16462A59BADA006E49FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +62,23 @@
 		0AEB16552A59BADA006E49FC /* CalenderBookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalenderBookingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEB16592A59BADA006E49FC /* CalenderBookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderBookingUITests.swift; sourceTree = "<group>"; };
 		0AEB165B2A59BADA006E49FC /* CalenderBookingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderBookingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AEB166A2A59BB54006E49FC /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		0AEB166D2A59BB94006E49FC /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		0AEB166F2A59BBEC006E49FC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0AEB16752A59C19D006E49FC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		0AEB16772A59C39C006E49FC /* CalenderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderPresenter.swift; sourceTree = "<group>"; };
+		0AEB16792A59C3BD006E49FC /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		0AEB167A2A59C3BD006E49FC /* CalenderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalenderViewController.xib; sourceTree = "<group>"; };
+		0AEB167D2A59C65E006E49FC /* CalenderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderManager.swift; sourceTree = "<group>"; };
+		0AEB167F2A59C77E006E49FC /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
+		0AEB16812A59D32D006E49FC /* CalenderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderHelper.swift; sourceTree = "<group>"; };
+		0AEB16832A59D386006E49FC /* CalenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
+		0AEB16842A59D386006E49FC /* CalenderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalenderCell.xib; sourceTree = "<group>"; };
+		0AEB16872A59DE8F006E49FC /* TimeSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectViewController.swift; sourceTree = "<group>"; };
+		0AEB16882A59DE8F006E49FC /* TimeSelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeSelectViewController.xib; sourceTree = "<group>"; };
+		0AEB168B2A59E74A006E49FC /* TimeSelectPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectPresenter.swift; sourceTree = "<group>"; };
+		0AEB168D2A59EBB2006E49FC /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		0AEB168F2A59EC91006E49FC /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +129,14 @@
 		0AEB16372A59BAD7006E49FC /* CalenderBooking */ = {
 			isa = PBXGroup;
 			children = (
+				0AEB16742A59C183006E49FC /* Extension */,
 				0AEB16382A59BAD7006E49FC /* AppDelegate.swift */,
 				0AEB163A2A59BAD7006E49FC /* SceneDelegate.swift */,
-				0AEB163C2A59BAD7006E49FC /* ViewController.swift */,
-				0AEB163E2A59BAD7006E49FC /* Main.storyboard */,
-				0AEB16412A59BADA006E49FC /* Assets.xcassets */,
-				0AEB16432A59BADA006E49FC /* LaunchScreen.storyboard */,
-				0AEB16462A59BADA006E49FC /* Info.plist */,
+				0AEB166C2A59BB82006E49FC /* Design */,
+				0AEB16682A59BB29006E49FC /* Functionality */,
+				0AEB16722A59BFDC006E49FC /* Interface */,
+				0AEB16712A59BF99006E49FC /* Supporting Files */,
+				0AEB167D2A59C65E006E49FC /* CalenderManager.swift */,
 			);
 			path = CalenderBooking;
 			sourceTree = "<group>";
@@ -125,6 +156,76 @@
 				0AEB165B2A59BADA006E49FC /* CalenderBookingUITestsLaunchTests.swift */,
 			);
 			path = CalenderBookingUITests;
+			sourceTree = "<group>";
+		};
+		0AEB16682A59BB29006E49FC /* Functionality */ = {
+			isa = PBXGroup;
+			children = (
+				0AEB16692A59BB35006E49FC /* Navigation */,
+			);
+			path = Functionality;
+			sourceTree = "<group>";
+		};
+		0AEB16692A59BB35006E49FC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0AEB166A2A59BB54006E49FC /* Presenter.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		0AEB166C2A59BB82006E49FC /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				0AEB166D2A59BB94006E49FC /* BaseNavigationController.swift */,
+				0AEB166F2A59BBEC006E49FC /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		0AEB16712A59BF99006E49FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AEB16462A59BADA006E49FC /* Info.plist */,
+				0AEB16432A59BADA006E49FC /* LaunchScreen.storyboard */,
+				0AEB16412A59BADA006E49FC /* Assets.xcassets */,
+				0AEB167F2A59C77E006E49FC /* Colours.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AEB16722A59BFDC006E49FC /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				0AEB16732A59BFFE006E49FC /* Calender */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		0AEB16732A59BFFE006E49FC /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+				0AEB16772A59C39C006E49FC /* CalenderPresenter.swift */,
+				0AEB16792A59C3BD006E49FC /* CalenderViewController.swift */,
+				0AEB167A2A59C3BD006E49FC /* CalenderViewController.xib */,
+				0AEB16812A59D32D006E49FC /* CalenderHelper.swift */,
+				0AEB16832A59D386006E49FC /* CalenderCell.swift */,
+				0AEB16842A59D386006E49FC /* CalenderCell.xib */,
+				0AEB16872A59DE8F006E49FC /* TimeSelectViewController.swift */,
+				0AEB16882A59DE8F006E49FC /* TimeSelectViewController.xib */,
+				0AEB168B2A59E74A006E49FC /* TimeSelectPresenter.swift */,
+			);
+			path = Calender;
+			sourceTree = "<group>";
+		};
+		0AEB16742A59C183006E49FC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0AEB168D2A59EBB2006E49FC /* UIButton.swift */,
+				0AEB168F2A59EC91006E49FC /* UIView.swift */,
+				0AEB16752A59C19D006E49FC /* UIViewController.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +333,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AEB16452A59BADA006E49FC /* LaunchScreen.storyboard in Resources */,
+				0AEB16802A59C77E006E49FC /* Colours.xcassets in Resources */,
+				0AEB16862A59D386006E49FC /* CalenderCell.xib in Resources */,
+				0AEB168A2A59DE8F006E49FC /* TimeSelectViewController.xib in Resources */,
+				0AEB167C2A59C3BD006E49FC /* CalenderViewController.xib in Resources */,
 				0AEB16422A59BADA006E49FC /* Assets.xcassets in Resources */,
-				0AEB16402A59BAD7006E49FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +362,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AEB163D2A59BAD7006E49FC /* ViewController.swift in Sources */,
+				0AEB168C2A59E74A006E49FC /* TimeSelectPresenter.swift in Sources */,
+				0AEB16782A59C39C006E49FC /* CalenderPresenter.swift in Sources */,
+				0AEB16762A59C19D006E49FC /* UIViewController.swift in Sources */,
+				0AEB16822A59D32D006E49FC /* CalenderHelper.swift in Sources */,
+				0AEB167E2A59C65E006E49FC /* CalenderManager.swift in Sources */,
 				0AEB16392A59BAD7006E49FC /* AppDelegate.swift in Sources */,
+				0AEB166E2A59BB94006E49FC /* BaseNavigationController.swift in Sources */,
+				0AEB16852A59D386006E49FC /* CalenderCell.swift in Sources */,
+				0AEB16892A59DE8F006E49FC /* TimeSelectViewController.swift in Sources */,
+				0AEB16702A59BBEC006E49FC /* Theme.swift in Sources */,
+				0AEB16902A59EC91006E49FC /* UIView.swift in Sources */,
+				0AEB167B2A59C3BD006E49FC /* CalenderViewController.swift in Sources */,
+				0AEB168E2A59EBB2006E49FC /* UIButton.swift in Sources */,
+				0AEB166B2A59BB54006E49FC /* Presenter.swift in Sources */,
 				0AEB163B2A59BAD7006E49FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +413,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0AEB163E2A59BAD7006E49FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0AEB163F2A59BAD7006E49FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0AEB16432A59BADA006E49FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +474,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +527,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -441,9 +547,9 @@
 				INFOPLIST_FILE = CalenderBooking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,9 +574,9 @@
 				INFOPLIST_FILE = CalenderBooking/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
