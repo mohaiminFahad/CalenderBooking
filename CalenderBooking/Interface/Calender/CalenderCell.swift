@@ -23,6 +23,7 @@ class CalenderCell: UICollectionViewCell {
         // Initialization code
         
         dateBackground.roundedCorner(radius: 5)
+        dayOfMonth.textColor = .white
     }
 
     func updateSelected() {
